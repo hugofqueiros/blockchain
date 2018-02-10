@@ -3,8 +3,8 @@ pragma solidity ^0.4.18;
 contract DoggieFactory {
     address[] public createdDoggiesList;
 
-    function createDoggies(uint minimumContrib) public {
-        address newDoggie = new Doggie(minimumContrib, msg.sender);
+    function createDoggie(uint minimum, string name) public {
+        address newDoggie = new Doggie(minimum, name, msg.sender);
         createdDoggiesList.push(newDoggie);
     }
 
@@ -16,12 +16,14 @@ contract DoggieFactory {
 contract Doggie {
     address public manager;
     uint public minimumContribution;
+    string public name;
     mapping(address => bool) public approvers;
     uint public approversCount;
 
-    function Doggie(uint minimumContrib, address creator) public {
+    function Doggie(uint minimum, string dogname, address creator) public {
         manager = creator;
-        minimumContribution = minimumContrib;
+        minimumContribution = minimum;
+        name = dogname;
     }
 
     function contribute() public payable {
@@ -32,10 +34,11 @@ contract Doggie {
     }
 
     function getSummary()  public view returns (
-        uint, uint, address
+        uint, string, uint, address
     ) {
         return (
             minimumContribution,
+            name,
             this.balance,
             manager
         );
