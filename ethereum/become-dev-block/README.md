@@ -15,3 +15,6 @@ to connect to the running node
 web3 api
 `eth.accounts`
 `eth.getBalance(eth.accounts[0])`
+
+add metamask: https://metamask.io/
+ganache then add the localhost netwoor
