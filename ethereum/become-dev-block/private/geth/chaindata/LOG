@@ -1,0 +1,32 @@
+=============== Jan 2, 2020 (GMT) ===============
+15:52:18.682859 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:52:18.705991 db@open opening
+15:52:18.711705 version@stat F·[] S·0B[] Sc·[]
+15:52:18.718230 db@janitor F·2 G·0
+15:52:18.720257 db@open done T·14.171873ms
+15:52:18.729597 db@close closing
+15:52:18.729954 db@close done T·354.088µs
+=============== Jan 2, 2020 (GMT) ===============
+16:03:31.547898 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:03:31.548222 version@stat F·[] S·0B[] Sc·[]
+16:03:31.548259 db@open opening
+16:03:31.548345 journal@recovery F·1
+16:03:31.550980 journal@recovery recovering @1
+16:03:31.560027 memdb@flush created L0@2 N·620 S·50KiB "\x02d\xfc..\x19Ba,v428":"\xfe\x88\xcf..H\xef\xcc,v361"
+16:03:31.563291 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+16:03:31.590385 db@janitor F·3 G·0
+16:03:31.590438 db@open done T·42.163427ms
+16:03:35.990370 db@close closing
+16:03:35.991180 db@close done T·806.858µs
+=============== Jan 2, 2020 (GMT) ===============
+16:10:19.226427 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:10:19.228092 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+16:10:19.228154 db@open opening
+16:10:19.228295 journal@recovery F·1
+16:10:19.231839 journal@recovery recovering @3
+16:10:19.239993 memdb@flush created L0@5 N·2 S·241B "Dat..ion,v622":"Las..der,v623"
+16:10:19.244955 version@stat F·[2] S·50KiB[50KiB] Sc·[0.50]
+16:10:19.271559 db@janitor F·4 G·0
+16:10:19.271656 db@open done T·43.485412ms
+16:29:04.837874 db@close closing
+16:29:04.838989 db@close done T·1.111337ms

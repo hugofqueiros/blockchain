@@ -67,3 +67,4 @@ package-lock.json
 node_modules
 yarn.lock
 .next
+.DS_Store
