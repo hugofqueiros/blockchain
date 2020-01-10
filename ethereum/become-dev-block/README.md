@@ -9,7 +9,7 @@ create accounts - pass: password
 to start:
 `./startnode.sh`
 
-to connect to the running node
+to connect to the running node - to the correct IPC
 `geth attach`
 
 web3 api
@@ -17,4 +17,5 @@ web3 api
 `eth.getBalance(eth.accounts[0])`
 
 add metamask: https://metamask.io/
-ganache then add the localhost netwoor
+ganache then add the localhost network
+
