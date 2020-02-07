@@ -1,0 +1,1 @@
+geth --networkid 4224 --mine --minerthreads 1 --datadir "~/ChainSkills/private" --nodiscover --rpc --rpcport "8545" --port "30303" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net --unlock [address of your first account] --password ~/ChainSkills/private/password.sec --ipcpath "~/Library/Ethereum/geth.ipc" --allow-insecure-unlock

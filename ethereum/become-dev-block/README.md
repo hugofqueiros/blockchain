@@ -18,4 +18,3 @@ web3 api
 
 add metamask: https://metamask.io/
 ganache then add the localhost network
-

@@ -15,3 +15,7 @@ https://infura.io/
 Node on Ethereum network (on this case on Rinkeby Network)
 
 truffle-hdwallet-provider to conner to the rinkeby network run by infura, and unlock the contract used
+
+## Ganache
+
+Ganache is a great tool if you want to test your contract right away.
